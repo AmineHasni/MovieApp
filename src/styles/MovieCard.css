@@ -1,0 +1,22 @@
+.likes-dislikes {
+  display: flex;
+  gap: 10px;
+}
+
+button.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.movie-card {
+  height: 15rem;
+  width: 20rem;
+  border: 3px solid #8d84f4;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}

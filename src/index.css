@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App-header {
+  background-color: #36317C;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid #ddd;;
+}
+
+.main {
+  padding: 20px;
+}
+button {
+  
+  border-radius: 8px;
+  width: 7.5rem;
+  border: 3px solid #8D84F4;
+  padding: 0.6em 1.2em;
+  background-color: #f0f0f0;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 1s;
+  margin-inline: 15px;
+}
+button:hover{
+  border: 3px solid #36317C;
+}
+
+.delete-btn{
+  color: #af1010;
+  border-radius: 8px;
+  width: 10rem;
+  border: 3px solid #eb5d5d;
+  padding: 0.6em 1.2em;
+  background-color: #f0f0f0;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+
+  cursor: pointer;
+  transition: border-color 1s;
+  margin-inline: 15px;
+  margin-bottom: 5px;
+}
+.delete-btn:hover{
+  border: 3px solid #af1010;
+}
